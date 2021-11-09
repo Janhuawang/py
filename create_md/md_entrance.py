@@ -1,5 +1,5 @@
 # 获取功能名字
-from test_py.create_md.md_file import w
+from test_py.create_md.md_file import File_tool
 
 
 def get_function_name():
@@ -13,7 +13,8 @@ def get_function_name():
 
 
 # 文件建立
-w(get_function_name())
+ft = File_tool(get_function_name())
+ft.exec()
 
 # 内容组成
 
